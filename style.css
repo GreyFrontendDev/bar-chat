@@ -33,8 +33,9 @@ img {
     background: #eb755d;
     border-radius: 15px;
     padding: 20px;
-    color: #fff;
+    color: #fff; 
 }
+
 .balance-text {
     font-weight: lighter;
 }
@@ -48,13 +49,71 @@ img {
     font-size: 20px;
     font-weight: bold;
     color: #312519;
-    margin-left: 20px;
 }
 
 .spending-container{
-    width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
     height: 412px;
     border-radius: 15px;
     background: #fffbf6;
     padding: 20px;
+}
+
+.weekdays-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 390px;
+    /* height: 100px;   */
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+
+.chart-bar {
+    width: 110%;
+    height: 50%;
+    background: #eb755d;
+    border-radius: 5px;
+}
+
+tuesday-bar {
+    height: 80%;
+}
+
+hr {
+    width: 97%;
+    border: 0;
+    border-top: 1px solid #cac7bf;
+}
+
+.total-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-label {
+    font-size: 14px;
+    color: #a19e96;
+}
+
+.total-amount {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3b2a1b;
+}
+
+.percentage-amount {
+    text-align: right;
+    color: #3b2a1b;
+}
+
+.last-month-lable {
+    color:#a19e96;
 }
