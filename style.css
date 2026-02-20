@@ -59,32 +59,54 @@ img {
     height: 412px;
     border-radius: 15px;
     background: #fffbf6;
-    padding: 20px;
+    padding: 30px;
 }
 
 .weekdays-container{
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
+    /* justify-content: space-between; */
     align-items: center;
     width: 390px;
-    /* height: 100px;   */
+    height: 200px;  
 }
 
 .bar-container {
     display: flex;
     flex-direction: column;
-    height: 70px;
+    justify-content: flex-end;
+    height: 100%;
+    text-align: center;
 }
 
 .chart-bar {
-    width: 110%;
+    width: 40px;
     height: 50%;
     background: #eb755d;
     border-radius: 5px;
 }
 
-tuesday-bar {
+.monday-bar {
+    height: 30%;
+}
+.tuesday-bar {
+    height: 60%;
+}
+.wednesday-bar {
+    background-color: #76b5bb;
     height: 80%;
+}
+.thursday-bar {
+    height: 40%;
+}
+.friday-bar {
+    height: 20%;
+}
+.saturday-bar {
+    height: 46%;
+}
+.sunday-bar {
+    height: 40%;
 }
 
 hr {
