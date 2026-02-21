@@ -10,11 +10,30 @@ body {
     font-style: normal;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-    padding: 5px;
+.circle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-color: #3c2214;
+
+}
+
+.circle2 {
+    left: 15px;
+    position: relative;
+    border: 2px solid #fff;
+
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -65,7 +84,6 @@ img {
 .weekdays-container{
     display: flex;
     gap: 15px;
-    /* justify-content: space-between; */
     align-items: center;
     width: 390px;
     height: 200px;  
@@ -86,6 +104,12 @@ img {
     border-radius: 5px;
 }
 
+.chart-bar:hover,
+.chart-bar:active {
+    background-color: #76b5bb;
+
+}
+
 .monday-bar {
     height: 30%;
 }
@@ -93,7 +117,6 @@ img {
     height: 60%;
 }
 .wednesday-bar {
-    background-color: #76b5bb;
     height: 80%;
 }
 .thursday-bar {

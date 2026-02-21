@@ -5,7 +5,6 @@ thuResult = document.querySelector('.thursday-bar');
 friResult = document.querySelector('.friday-bar');
 satResult = document.querySelector('.saturday-bar');
 sunResult = document.querySelector('.sunday-bar');
-console.log(monResult);
 
 async function getData() {
   const res = await fetch('./data.json');
